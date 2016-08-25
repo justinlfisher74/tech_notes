@@ -1,0 +1,29 @@
+
+$ git init // creates repo for current directory (mkdir and cd to make directory and navigate)
+
+$ git status
+$ git add <FILENAME> // add changes to repo
+$ git add . // add all file changes
+$ git diff // shows differences between repo and current file
+$ git commit -m "MESSAGE HERE" // commit changes with message
+
+Add remote connections
+	$git remote add <REMOTENAME> <URL>
+Set a URL to a remote
+	$git remote set-url <REMOTENAME> <URL>
+Pull in changes
+	$git pull <REMOTENAME> <BRANCHNAME>
+View remote addresses
+	$git remote -v
+Push changes
+	$git push <REMOTENAME> <BRANCH>
+
+Add a remote
+$git remote add <REMOTENAME> <URL>
+Change a remote URL
+$git remote set-url <REMOTENAME> <URL>
+View remote connections
+$git remote -v
+Connect to the Origional Repo. 'upstream' is conventional name
+$git remote add upstream https://github.com/jlord/patchwork.git
+
