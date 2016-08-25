@@ -25,6 +25,9 @@ View remote addresses
 	$git remote -v
 Push changes
 	$git push <REMOTENAME> <BRANCH>
+* Overwrite what exists on GitHub (remote) USE WITH CAUTION!
+	$git push <REMOTENAME> +<BRANCHNAME>
+	i.e. $git push orgin +master
 Connect to the Origional Repo. 'upstream' is conventional name
 	$git remote add upstream https://github.com/jlord/patchwork.git
 
