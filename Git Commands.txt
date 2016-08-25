@@ -1,13 +1,21 @@
+Notes from Git-it tutorials
 
-$ git init // creates repo for current directory (mkdir and cd to make directory and navigate)
+create repo for current directory
+	$ git init
 
-$ git status
-$ git add <FILENAME> // add changes to repo
-$ git add . // add all file changes
-$ git diff // shows differences between repo and current file
-$ git commit -m "MESSAGE HERE" // commit changes with message
+	$ git status
+add changes to repo
+	$ git add <FILENAME>
+add all file changes
+	$ git add .
+shows differences between repo and current file
+while in view diff mode 'q' is exit
+	$ git diff
+commit changes with message
+	$ git commit -m "MESSAGE HERE"
 
-Add remote connections
+Add remote connections. Create remote repository on Github.com.
+Primary remote is typically named 'orgin'
 	$git remote add <REMOTENAME> <URL>
 Set a URL to a remote
 	$git remote set-url <REMOTENAME> <URL>
@@ -17,13 +25,6 @@ View remote addresses
 	$git remote -v
 Push changes
 	$git push <REMOTENAME> <BRANCH>
-
-Add a remote
-$git remote add <REMOTENAME> <URL>
-Change a remote URL
-$git remote set-url <REMOTENAME> <URL>
-View remote connections
-$git remote -v
 Connect to the Origional Repo. 'upstream' is conventional name
-$git remote add upstream https://github.com/jlord/patchwork.git
+	$git remote add upstream https://github.com/jlord/patchwork.git
 
