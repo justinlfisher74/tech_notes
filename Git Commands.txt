@@ -30,4 +30,19 @@ Push changes
 	i.e. $git push orgin +master
 Connect to the Origional Repo. 'upstream' is conventional name
 	$git remote add upstream https://github.com/jlord/patchwork.git
-
+Study Branching at:
+	guides.github.com/overviews/flow
+Create a branch
+	$git branch <BRANCHNAME>
+To work on branch, move onto branch
+	$git checkout <BRANCHNAME>
+List branches
+	$git branch
+rename current branch
+	$git branch -m<NEWBRANCHNAME>
+Check Git status
+	$git status
+Pull in changes from a remote branch
+	$git pull <REMOTENAME> <REMOTEBRANCH>
+See changes to the remote before you pull in
+	$git fetch --dry-run
